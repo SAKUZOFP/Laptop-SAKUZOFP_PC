@@ -1,0 +1,27 @@
+/*esto pone de color a todas las etiquetas mencionadas en el grupo dando referencia a cada etiqueta*/
+header h2,h3{
+    color: green;
+}
+
+/*esto pone de color a todas las etiquetas de parrafo P*/
+p{
+    color: red;
+}
+/*esto solo pone de color a la etiqueta de parrafo con identificador unico ID con el nombre q le asignastes previamente*/
+/*poner la etiqueta a la q se le asigno el identificador de tipo ID es opcional ya q funciona sin la " # " */
+p#azul{
+    color: blue;
+}
+/* ESTA ES LA OTRA OPCION
+
+#azul{
+    color: blue;
+}
+*/
+/*LOS IDENTIFICADORES ESPESIFICAN A UN TIPO DE ETIQUETA CON UN UNICO NOMBRE EL CUAL LE ASIGNAN*/
+/* LAS CLASES SERAN UTILIZAS POR DIFERENTES ETIQUETAS PARA Q TENGAN LOS MISMOS ARREGLOS O ESTILOS QUE SE LE ASIGNAN A UNA CLASE CON UN NOMBRE EN ESPESIFICO es a nivel en cascada*/
+/*los identificadores no se pueden repetir pero las clases si pueden*/
+
+
+
+
